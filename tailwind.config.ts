@@ -9,6 +9,7 @@ const config: Config = {
     extend: {
       colors: {
         dark: "#22212C",
+        pink: "#FF80BF",
         purple: "#9580FF",
         white: "#FFFFFF",
       },
