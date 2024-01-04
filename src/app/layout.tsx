@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Fira_Code } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const firaCode = Fira_Code({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Douglas Tenfen",
@@ -15,8 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="bg-dark text-white">{children}</body>
+    <html className={firaCode.className} lang="en">
+      <body className="bg-dark text-white">
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,24 +1,9 @@
-import Image from "next/image";
-
-import avatar from "../assets/avatar.jpeg";
+import Hero from "@/components/Hero/Hero";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center">
-      <div>
-        <Image
-          src={avatar}
-          width={256}
-          height={283}
-          alt="Developer Portrait"
-          className="h-60 w-60 rounded-full border-4 border-purple"
-        />
-      </div>
-      <h1 className="text-4xl font-bold">
-        Hey! I&rsquo;m <br />
-        <span className="text-purple">Douglas</span>
-      </h1>
-      <p className="text-xl">Backend Developer</p>
+    <div>
+      <Hero />
     </div>
   );
 }
