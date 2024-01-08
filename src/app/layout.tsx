@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html className={firaCode.className} lang="en">
-      <body className="bg-dark text-white">
+      <body className="flex h-screen min-h-screen w-full flex-col bg-dark text-white">
         <Header />
         {children}
       </body>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import avatar from "../../assets/avatar.jpeg";
+import Social from "../Social/Social";
 
 export default function Hero() {
   return (
@@ -17,7 +18,8 @@ export default function Hero() {
         Hey! I&rsquo;m <br />
         <span className=" text-purple">Douglas</span>
       </h1>
-      <p className="text-xl">Backend Developer</p>
+      <p className="text-xl mb-4">Backend Developer</p>
+      <Social />
     </div>
   );
 }
