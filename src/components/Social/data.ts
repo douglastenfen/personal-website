@@ -8,15 +8,15 @@ type SocialMediaType = {
 
 const socialMedias: SocialMediaType[] = [
   {
-    href: "https://www.linkedin.com/in/douglas-tenfen-de-oliveira/",
-    icon: Linkedin,
-    label: "Linkedin",
-  },
-
-  {
     href: "https://github.com/douglastenfen",
     icon: Github,
     label: "Github",
+  },
+
+  {
+    href: "https://www.linkedin.com/in/douglas-tenfen-de-oliveira/",
+    icon: Linkedin,
+    label: "Linkedin",
   },
 
   {
